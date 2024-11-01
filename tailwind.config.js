@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'custom-bg': "url('/Users/Swetha/naatyakshetra/public/MSN_WEB_NOTRANSPARENT.png')",
+        'custom-bg': "url('/MSN_WEB_NOTRANSPARENT.png')",
       },
       height: {
         'custom-height': '720px',

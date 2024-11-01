@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import Card from './Card2';
 
+
 function Gallery() {
   const [isBackgroundVisible, setIsBackgroundVisible] = useState(false);
   const [isOverlayVisible, setIsOverlayVisible] = useState(false);
@@ -16,7 +17,7 @@ function Gallery() {
   }, []);
 
   return (
-    <section className="bg-[url('/Users/Swetha/naatyakshetra/public/MSN_WEB_NOTRANSPARENT.png')] bg-cover bg-center h-[720px] flex items-center justify-center">
+    <section style={{ backgroundImage: `url('/MSN_WEB_NOTRANSPARENT.png')` }} className="bg-cover bg-center h-[720px] flex items-center justify-center">
       {/* Semi-Transparent Background Container */}
       <div
         className={`transition-opacity duration-1000 ${
